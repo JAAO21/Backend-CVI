@@ -1,0 +1,36 @@
+{
+  "name": "projectcviseminario",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "server":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1288.0",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-myconnection": "^1.0.4",
+    "jsonwebtoken": "^9.0.0",
+    "moongose": "^1.0.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.0.1",
+    "nodemailer": "^6.9.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "ncp": "^2.0.0",
+    "nodemon": "^2.0.20",
+    "rimraf": "^3.0.2"
+  }
+}
